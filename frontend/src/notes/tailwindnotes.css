@@ -1,0 +1,28 @@
+/**
+px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]
+
+px-4: This applies padding of 1rem (16px) to both the left and right sides on all screen sizes.
+
+sm:px-[5vw]: On small screens (usually min-width: 640px), it applies padding of 5vw (5% of the viewport width) on the left and right sides.
+
+md:px-[7vw]: On medium screens (usually min-width: 768px), the padding on the left and right becomes 7vw (7% of the viewport width).
+
+lg:px-[9vw]: On large screens (usually min-width: 1024px), the left and right padding is 9vw (9% of the viewport width).
+**/
+
+/** grid gap **/
+
+/*
+In Tailwind CSS, the gap utility sets the spacing between items in a grid or flex layout. When you use both gap and gap-y it means that the gap you placed in horizontal and vertical
+
+4 => default 1 rem = 16px
+
+
+<div class="grid gap-4 gap-y-6">
+  <div>Item 1</div>
+  <div>Item 2</div>
+  <div>Item 3</div>
+  <div>Item 4</div>
+</div>
+
+*/
